@@ -4,4 +4,5 @@ def parrot(my_string="Squawk!")
   puts "The my_string is #{my_string}"
   return my_string
 end
+parrot()
 parrot(my_string="Hello")
